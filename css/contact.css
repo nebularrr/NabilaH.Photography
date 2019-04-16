@@ -1,0 +1,281 @@
+/* LOGO */
+
+#logo {
+  display: block;
+  width: 20%;
+  margin: auto;
+  margin-top: 4%;
+  }
+
+/* end LOGO */
+
+/* Nav */
+
+.container {
+  list-style: none;
+  text-align: center;
+
+}
+
+.container li {
+  display: inline;
+}
+
+.container a {
+
+display: inline-block;
+padding: 30px;
+text-decoration: none;
+color: black;
+z-index: 1;
+margin-top: 20px;
+font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container a:hover {
+  color: #D61E6E;
+}
+
+.conainter a:active {
+  color: #D61E6E;
+}
+
+/* end Nav */
+
+h1 {
+	display: inline-block;
+	top: 30%;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	text-align: left;
+	width: 80%;
+	color: black;
+	text-align: center;
+	margin-bottom: 0%;
+
+
+}
+
+h2 {
+	position: relative;
+	top: 45%;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5%;
+	
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	h1 {
+	position: relative;
+	top: 10%;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	text-align: left;
+	width: 80%;
+	color: black;
+	text-align: center;
+	margin-bottom: 0%;
+	margin-top: 5%;
+
+}
+
+h2 {
+	position: relative;
+	top: 45%;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5%;
+	
+
+}
+}
+
+.divider {
+	position: relative;
+	height: 400px;
+	width: 1.5px;
+	background-color: black;
+	float: left;
+	left: 15%;
+	top: 65px;
+}
+
+
+input[type=text], select, textarea {
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ef4260;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	left: 30%;
+	width: 80%;
+}
+
+
+
+input[type=submit] {
+    background-color: #ef4260;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	
+}
+
+
+input[type=submit]:hover {
+    background-color: #ef4260;
+}
+
+label {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+
+.mailcontainer {
+	position: relative;
+	float: right;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    width: 50%;
+
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.container {
+	position: relative;
+	float: center;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.divider {
+	display: none;
+}
+}
+
+.contact-info {
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: black;
+	line-height: 0px;
+	top: 350px;
+	left: 8%;
+	text-align: right;
+	position: relative;
+	
+
+}
+
+#insta {
+	width: 2.5%;
+	float: left;
+	padding: 5px;
+	top: 440px;
+	left:22%;
+	position: relative;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.contact-info {
+	float: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	line-height: 0px;
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 100%;
+	left: 22%;
+
+}
+
+
+#insta {
+	width: 4%;
+	float: center;
+	padding: 5px;
+	left:26.4%;
+	position: relative;
+	display: block;
+	top: 125px;
+	left: 43%;
+}
+}
+
+footer {
+
+clear: both;
+	position: relative;
+	left: auto;
+	right: auto;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 3%;
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	footer {
+
+	position: relative;
+	left: auto;
+	right: auto;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	margin-bottom: 3%;
+
+}
+}
